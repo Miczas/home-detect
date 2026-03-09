@@ -125,7 +125,6 @@ def main():
                         logging.info(f"{user} arrived → turning lights ON")
                         turn_all_on(
                             brightness=settings["brightness"],
-                            rgb_color=settings["color"],
                             transition=2,
                         )
                     user_states[user] = True
